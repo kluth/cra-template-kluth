@@ -22,7 +22,8 @@
   },
   "files": [
     "template",
-    "template.json"
+    "template.json",
+    "tailwind.config.js"
   ],
   "dependencies": {
     "react-gravatar": "^2.6.3",
