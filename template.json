@@ -23,6 +23,15 @@
       },
       "eslintConfig": {
         "extends": ["react-app", "react-app/jest"]
+      },
+      "scripts": {
+        "watch:css": "npx tailwindcss -i ./src/global.css -o ./public/output.css --watch",
+        "react-scripts:start": "delay 5 && react-scripts start",
+        "react-scripts:build": "react-scripts build",
+        "start": "run-p watch:css react-scripts:start",
+        "build": "run-s build:css react-scripts:build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
       }
     }
   }
