@@ -1,6 +1,6 @@
 {
   "name": "cra-template-kluth",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "keywords": [
     "react",
     "create-react-app",
@@ -29,16 +29,26 @@
     "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
+    "@types/autoprefixer": "^10.2.0",
     "@types/react-gravatar": "^2.6.10",
     "@types/react-router-dom": "^5.3.2",
-    "cypress": "^9.1.1"
+    "@types/tailwindcss": "^2.2.4",
+    "autoprefixer": "^10.4.0",
+    "cypress": "^9.1.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
   },
   "author": {
     "name": "Matthias Kluth",
     "email": "kluthmatthias@gmail.com",
     "url": "https://kluth.me"
   },
-  "scripts": {
-    "cypress": "yarn cypress run --headless"
+  "prettier": {
+    "jsxSingleQuote": true,
+    "semi": false,
+    "printWidth": 80,
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "embeddedLanguageFormatting": "auto"
   }
 }
