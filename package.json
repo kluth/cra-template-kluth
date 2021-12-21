@@ -10,7 +10,7 @@
   "description": "Pretty empty and clean template to start from.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kluth/cra-temaplte-kluth.git",
+    "url": "https://github.com/kluth/cra-template-kluth.git",
     "directory": "packages/cra-template-kluth"
   },
   "license": "MIT",
