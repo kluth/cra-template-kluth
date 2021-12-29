@@ -26,12 +26,9 @@
     "tailwind.config.js"
   ],
   "dependencies": {
-    "react-gravatar": "^2.6.3",
     "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
-    "@types/autoprefixer": "^10.2.0",
-    "@types/react-gravatar": "^2.6.10",
     "@types/react-router-dom": "^5.3.2",
     "@types/tailwindcss": "^2.2.4",
     "autoprefixer": "^10.4.0",
